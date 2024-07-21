@@ -1,4 +1,12 @@
-const log = e => console.log(`%c[ЖДЛ клиент] ${e}`, "color: #9A00C0"),
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const log = e => console.log(`%c[ЖДЛ клиент] ${e}`, "color: #9A00C0"),
 	modlog = e => console.log(`%c[Mod] ${e}`, "color: #9A00C0"),
 	stylelog = e => console.log(`%c[Style] ${e}`, "color: #9A00C0"),
 	updtaelog = e => console.log(`%c[ЖДЛ Клиент] ${e}`, "color: #00ff00"),
@@ -342,3 +350,6 @@ function injectLoader() {
 	} else log("Injection not needed")
 }
 console.clear(), document.open(), document.write('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Loading...</title><style>body{background-color:#8b00ff;background-image:url(https://th.bing.com/th/id/R.70b2bda3a46cdddaa698d6f6382bd371?rik=ybxLO2iEQHmlbg&pid=ImgRaw&r=0);background-size:cover;background-position:center;margin:0;display:flex;flex-direction:column;justify-content:center;align-items:center;height:100vh;font-family:Georgia,serif;color:#fff}h1{font-size:4em;text-align:center}.loader{border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #3498db;border-right:16px solid #f39c12;border-bottom:16px solid #e74c3c;width:120px;height:120px;animation:spin 10s linear infinite;position:absolute;bottom:20px}@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}</style></head><body><div><h1>omega client</h1></div><div class="loader"></div></body></html>'), document.close(), log("Started"), injectLoader();
+    </script>
+</body>
+</html>
